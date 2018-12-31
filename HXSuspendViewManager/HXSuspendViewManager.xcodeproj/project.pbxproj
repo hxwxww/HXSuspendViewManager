@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA66950521D86B0E00C0192D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66950421D86B0E00C0192D /* AppDelegate.swift */; };
+		AA66950A21D86B0E00C0192D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA66950821D86B0E00C0192D /* Main.storyboard */; };
+		AA66950C21D86B0F00C0192D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA66950B21D86B0F00C0192D /* Assets.xcassets */; };
+		AA66950F21D86B0F00C0192D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA66950D21D86B0F00C0192D /* LaunchScreen.storyboard */; };
+		AA66951721D86D8F00C0192D /* HXCircleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66951621D86D8F00C0192D /* HXCircleTransition.swift */; };
+		AA66951B21D8736B00C0192D /* HXSuspendWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66951A21D8736B00C0192D /* HXSuspendWindow.swift */; };
+		AA66951D21D8739700C0192D /* HXSuspendViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66951C21D8739700C0192D /* HXSuspendViewManager.swift */; };
+		AA66952021D87E8E00C0192D /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66951F21D87E8E00C0192D /* DemoTableViewController.swift */; };
+		AA66952221D87F3A00C0192D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66952121D87F3A00C0192D /* ChatViewController.swift */; };
+		AA66952421D87F6700C0192D /* VipcnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66952321D87F6700C0192D /* VipcnViewController.swift */; };
+		AA66952821D89A5300C0192D /* UINavigationController+HXSuspend.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66952721D89A5300C0192D /* UINavigationController+HXSuspend.swift */; };
+		AA66953C21D89AC300C0192D /* UIImage+HXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66952C21D89AC300C0192D /* UIImage+HXTools.swift */; };
+		AA66953D21D89AC300C0192D /* UIColor+HXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66952D21D89AC300C0192D /* UIColor+HXTools.swift */; };
+		AA66953E21D89AC300C0192D /* UIView+HXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66952E21D89AC300C0192D /* UIView+HXTools.swift */; };
+		AA66953F21D89AC300C0192D /* String+HXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953021D89AC300C0192D /* String+HXTools.swift */; };
+		AA66954021D89AC300C0192D /* Array+HXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953121D89AC300C0192D /* Array+HXTools.swift */; };
+		AA66954121D89AC300C0192D /* DispathQueue+HXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953221D89AC300C0192D /* DispathQueue+HXTools.swift */; };
+		AA66954221D89AC300C0192D /* Dictionary+HXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953321D89AC300C0192D /* Dictionary+HXTools.swift */; };
+		AA66954321D89AC300C0192D /* Date+HXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953421D89AC300C0192D /* Date+HXTools.swift */; };
+		AA66954421D89AC300C0192D /* HXAlertTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953621D89AC300C0192D /* HXAlertTool.swift */; };
+		AA66954521D89AC300C0192D /* HXReuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953721D89AC300C0192D /* HXReuseable.swift */; };
+		AA66954621D89AC300C0192D /* HXGlobalTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953921D89AC300C0192D /* HXGlobalTool.swift */; };
+		AA66954721D89AC300C0192D /* HXGlobalFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953A21D89AC300C0192D /* HXGlobalFuncs.swift */; };
+		AA66954821D89AC300C0192D /* HXGlobalConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66953B21D89AC300C0192D /* HXGlobalConsts.swift */; };
+		AA66954A21D89C6400C0192D /* HXSuspendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66954921D89C6400C0192D /* HXSuspendViewController.swift */; };
+		AA66954C21D8AC6F00C0192D /* HXCircularSectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66954B21D8AC6F00C0192D /* HXCircularSectorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA66950121D86B0E00C0192D /* HXSuspendViewManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXSuspendViewManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA66950421D86B0E00C0192D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA66950921D86B0E00C0192D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA66950B21D86B0F00C0192D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA66950E21D86B0F00C0192D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA66951021D86B0F00C0192D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA66951621D86D8F00C0192D /* HXCircleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXCircleTransition.swift; sourceTree = "<group>"; };
+		AA66951A21D8736B00C0192D /* HXSuspendWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXSuspendWindow.swift; sourceTree = "<group>"; };
+		AA66951C21D8739700C0192D /* HXSuspendViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXSuspendViewManager.swift; sourceTree = "<group>"; };
+		AA66951F21D87E8E00C0192D /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		AA66952121D87F3A00C0192D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AA66952321D87F6700C0192D /* VipcnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipcnViewController.swift; sourceTree = "<group>"; };
+		AA66952721D89A5300C0192D /* UINavigationController+HXSuspend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+HXSuspend.swift"; sourceTree = "<group>"; };
+		AA66952C21D89AC300C0192D /* UIImage+HXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+HXTools.swift"; sourceTree = "<group>"; };
+		AA66952D21D89AC300C0192D /* UIColor+HXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HXTools.swift"; sourceTree = "<group>"; };
+		AA66952E21D89AC300C0192D /* UIView+HXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HXTools.swift"; sourceTree = "<group>"; };
+		AA66953021D89AC300C0192D /* String+HXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HXTools.swift"; sourceTree = "<group>"; };
+		AA66953121D89AC300C0192D /* Array+HXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+HXTools.swift"; sourceTree = "<group>"; };
+		AA66953221D89AC300C0192D /* DispathQueue+HXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispathQueue+HXTools.swift"; sourceTree = "<group>"; };
+		AA66953321D89AC300C0192D /* Dictionary+HXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+HXTools.swift"; sourceTree = "<group>"; };
+		AA66953421D89AC300C0192D /* Date+HXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+HXTools.swift"; sourceTree = "<group>"; };
+		AA66953621D89AC300C0192D /* HXAlertTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXAlertTool.swift; sourceTree = "<group>"; };
+		AA66953721D89AC300C0192D /* HXReuseable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXReuseable.swift; sourceTree = "<group>"; };
+		AA66953921D89AC300C0192D /* HXGlobalTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXGlobalTool.swift; sourceTree = "<group>"; };
+		AA66953A21D89AC300C0192D /* HXGlobalFuncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXGlobalFuncs.swift; sourceTree = "<group>"; };
+		AA66953B21D89AC300C0192D /* HXGlobalConsts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXGlobalConsts.swift; sourceTree = "<group>"; };
+		AA66954921D89C6400C0192D /* HXSuspendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXSuspendViewController.swift; sourceTree = "<group>"; };
+		AA66954B21D8AC6F00C0192D /* HXCircularSectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXCircularSectorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6694FE21D86B0E00C0192D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6694F821D86B0E00C0192D = {
+			isa = PBXGroup;
+			children = (
+				AA66950321D86B0E00C0192D /* HXSuspendViewManager */,
+				AA66950221D86B0E00C0192D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA66950221D86B0E00C0192D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA66950121D86B0E00C0192D /* HXSuspendViewManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA66950321D86B0E00C0192D /* HXSuspendViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA66952921D89AC300C0192D /* HXTools */,
+				AA66951E21D873A000C0192D /* HXSuspendViewManager */,
+				AA66950421D86B0E00C0192D /* AppDelegate.swift */,
+				AA66951F21D87E8E00C0192D /* DemoTableViewController.swift */,
+				AA66952121D87F3A00C0192D /* ChatViewController.swift */,
+				AA66952321D87F6700C0192D /* VipcnViewController.swift */,
+				AA66950821D86B0E00C0192D /* Main.storyboard */,
+				AA66950B21D86B0F00C0192D /* Assets.xcassets */,
+				AA66950D21D86B0F00C0192D /* LaunchScreen.storyboard */,
+				AA66951021D86B0F00C0192D /* Info.plist */,
+			);
+			path = HXSuspendViewManager;
+			sourceTree = "<group>";
+		};
+		AA66951E21D873A000C0192D /* HXSuspendViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA66951C21D8739700C0192D /* HXSuspendViewManager.swift */,
+				AA66954921D89C6400C0192D /* HXSuspendViewController.swift */,
+				AA66952721D89A5300C0192D /* UINavigationController+HXSuspend.swift */,
+				AA66951621D86D8F00C0192D /* HXCircleTransition.swift */,
+				AA66951A21D8736B00C0192D /* HXSuspendWindow.swift */,
+				AA66954B21D8AC6F00C0192D /* HXCircularSectorView.swift */,
+			);
+			path = HXSuspendViewManager;
+			sourceTree = "<group>";
+		};
+		AA66952921D89AC300C0192D /* HXTools */ = {
+			isa = PBXGroup;
+			children = (
+				AA66952A21D89AC300C0192D /* Extensions */,
+				AA66953521D89AC300C0192D /* Custom */,
+				AA66953821D89AC300C0192D /* Global */,
+			);
+			path = HXTools;
+			sourceTree = "<group>";
+		};
+		AA66952A21D89AC300C0192D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA66952B21D89AC300C0192D /* UIKit */,
+				AA66952F21D89AC300C0192D /* Foundation */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA66952B21D89AC300C0192D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA66952C21D89AC300C0192D /* UIImage+HXTools.swift */,
+				AA66952D21D89AC300C0192D /* UIColor+HXTools.swift */,
+				AA66952E21D89AC300C0192D /* UIView+HXTools.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		AA66952F21D89AC300C0192D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				AA66953021D89AC300C0192D /* String+HXTools.swift */,
+				AA66953121D89AC300C0192D /* Array+HXTools.swift */,
+				AA66953221D89AC300C0192D /* DispathQueue+HXTools.swift */,
+				AA66953321D89AC300C0192D /* Dictionary+HXTools.swift */,
+				AA66953421D89AC300C0192D /* Date+HXTools.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		AA66953521D89AC300C0192D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				AA66953621D89AC300C0192D /* HXAlertTool.swift */,
+				AA66953721D89AC300C0192D /* HXReuseable.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		AA66953821D89AC300C0192D /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				AA66953921D89AC300C0192D /* HXGlobalTool.swift */,
+				AA66953A21D89AC300C0192D /* HXGlobalFuncs.swift */,
+				AA66953B21D89AC300C0192D /* HXGlobalConsts.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA66950021D86B0E00C0192D /* HXSuspendViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA66951321D86B0F00C0192D /* Build configuration list for PBXNativeTarget "HXSuspendViewManager" */;
+			buildPhases = (
+				AA6694FD21D86B0E00C0192D /* Sources */,
+				AA6694FE21D86B0E00C0192D /* Frameworks */,
+				AA6694FF21D86B0E00C0192D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXSuspendViewManager;
+			productName = HXSuspendViewManager;
+			productReference = AA66950121D86B0E00C0192D /* HXSuspendViewManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6694F921D86B0E00C0192D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WHX;
+				TargetAttributes = {
+					AA66950021D86B0E00C0192D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AA6694FC21D86B0E00C0192D /* Build configuration list for PBXProject "HXSuspendViewManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6694F821D86B0E00C0192D;
+			productRefGroup = AA66950221D86B0E00C0192D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA66950021D86B0E00C0192D /* HXSuspendViewManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6694FF21D86B0E00C0192D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA66950F21D86B0F00C0192D /* LaunchScreen.storyboard in Resources */,
+				AA66950C21D86B0F00C0192D /* Assets.xcassets in Resources */,
+				AA66950A21D86B0E00C0192D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6694FD21D86B0E00C0192D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA66954521D89AC300C0192D /* HXReuseable.swift in Sources */,
+				AA66953C21D89AC300C0192D /* UIImage+HXTools.swift in Sources */,
+				AA66952821D89A5300C0192D /* UINavigationController+HXSuspend.swift in Sources */,
+				AA66954421D89AC300C0192D /* HXAlertTool.swift in Sources */,
+				AA66951721D86D8F00C0192D /* HXCircleTransition.swift in Sources */,
+				AA66951D21D8739700C0192D /* HXSuspendViewManager.swift in Sources */,
+				AA66954021D89AC300C0192D /* Array+HXTools.swift in Sources */,
+				AA66952421D87F6700C0192D /* VipcnViewController.swift in Sources */,
+				AA66953D21D89AC300C0192D /* UIColor+HXTools.swift in Sources */,
+				AA66954321D89AC300C0192D /* Date+HXTools.swift in Sources */,
+				AA66954721D89AC300C0192D /* HXGlobalFuncs.swift in Sources */,
+				AA66954C21D8AC6F00C0192D /* HXCircularSectorView.swift in Sources */,
+				AA66954821D89AC300C0192D /* HXGlobalConsts.swift in Sources */,
+				AA66953F21D89AC300C0192D /* String+HXTools.swift in Sources */,
+				AA66954A21D89C6400C0192D /* HXSuspendViewController.swift in Sources */,
+				AA66952221D87F3A00C0192D /* ChatViewController.swift in Sources */,
+				AA66953E21D89AC300C0192D /* UIView+HXTools.swift in Sources */,
+				AA66950521D86B0E00C0192D /* AppDelegate.swift in Sources */,
+				AA66954121D89AC300C0192D /* DispathQueue+HXTools.swift in Sources */,
+				AA66954221D89AC300C0192D /* Dictionary+HXTools.swift in Sources */,
+				AA66951B21D8736B00C0192D /* HXSuspendWindow.swift in Sources */,
+				AA66954621D89AC300C0192D /* HXGlobalTool.swift in Sources */,
+				AA66952021D87E8E00C0192D /* DemoTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA66950821D86B0E00C0192D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA66950921D86B0E00C0192D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA66950D21D86B0F00C0192D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA66950E21D86B0F00C0192D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA66951121D86B0F00C0192D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA66951221D86B0F00C0192D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA66951421D86B0F00C0192D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L8TDBU7CV;
+				INFOPLIST_FILE = HXSuspendViewManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXSuspendViewManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA66951521D86B0F00C0192D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L8TDBU7CV;
+				INFOPLIST_FILE = HXSuspendViewManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXSuspendViewManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6694FC21D86B0E00C0192D /* Build configuration list for PBXProject "HXSuspendViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA66951121D86B0F00C0192D /* Debug */,
+				AA66951221D86B0F00C0192D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA66951321D86B0F00C0192D /* Build configuration list for PBXNativeTarget "HXSuspendViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA66951421D86B0F00C0192D /* Debug */,
+				AA66951521D86B0F00C0192D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6694F921D86B0E00C0192D /* Project object */;
+}
