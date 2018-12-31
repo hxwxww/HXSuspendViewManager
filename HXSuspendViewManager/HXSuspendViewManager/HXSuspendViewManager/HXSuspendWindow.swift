@@ -83,8 +83,8 @@ extension HXSuspendWindow {
             if HXSuspendViewManager.shared.circularSectorView.isPointInView(point: center) {
                 HXSuspendViewManager.shared.removeSuspendView()
             } else {
-                // 保证悬浮窗在安全范围之内
-                let centerX = min(max(center.x, bounds.width / 2 + 10), hx_screenWidth - bounds.width / 2 - 10)
+                // 保证悬浮窗在安全范围之内，并贴边
+                let centerX = center.x < hx_screenWidth / 2 ? bounds.width / 2 + 10 : hx_screenWidth - bounds.width / 2 - 10
                 let centerY = min(max(center.y, bounds.height / 2 + hx_statusBarHeight), hx_screenHeight - bounds.height / 2 - hx_safeBottomHeight)
                 UIView.animate(withDuration: 0.2) {
                     self.center = CGPoint(x: centerX, y: centerY)
