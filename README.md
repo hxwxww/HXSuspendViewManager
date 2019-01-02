@@ -7,7 +7,7 @@ iOS仿微信的悬浮窗，自定义转场动画，使用超级简单
 ![image](https://github.com/hxwxww/HXSuspendViewManager/raw/master/screenshots/screenshot2.gif)
 
 ## 代码结构
-![代码结构.jpg](https://upload-images.jianshu.io/upload_images/4068337-3d12219e4b752378.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://github.com/hxwxww/HXSuspendViewManager/raw/master/screenshots/screenshot3.jpg)
 
 - HXSuspendViewManager是一个单例，负责主要的逻辑，控制悬浮窗和扇形view的生命周期、展示和隐藏。
 - HXSuspendViewController是一个协议，只要你的控制器遵守了这个协议，你的控制器就可以添加到悬浮窗中。
@@ -225,3 +225,4 @@ return UIImage(named: "2")
 ## 总结
 iOS仿微信的悬浮窗，自定义转场动画，集成超级简单。
 如果觉得对你有帮助，请给个star。
+简书：https://www.jianshu.com/p/9280d0a0bc73
