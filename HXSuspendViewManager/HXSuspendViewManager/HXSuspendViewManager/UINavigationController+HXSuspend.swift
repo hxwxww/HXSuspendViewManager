@@ -27,8 +27,10 @@ extension UINavigationController {
     open override func viewDidLoad() {
         super.viewDidLoad()
         UINavigationController.initializeSuspendOnce()
-        interactivePopGestureRecognizer?.delegate = self
-        delegate = self
+        if isMember(of: UINavigationController.self) {
+            interactivePopGestureRecognizer?.delegate = self
+            delegate = self
+        }
     }
     
     private static let onceToken = UUID().uuidString

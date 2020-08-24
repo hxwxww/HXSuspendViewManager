@@ -103,6 +103,8 @@ extension HXSuspendViewManager {
         let animation = CABasicAnimation(keyPath: "path")
         animation.fromValue = beginPath.cgPath
         animation.toValue = finalPath.cgPath
+        animation.isRemovedOnCompletion = false
+        animation.fillMode = .forwards
         animation.duration = HXSuspendViewConfig.animateDuration
         animation.delegate = self
         maskLayer.add(animation, forKey: "path")
